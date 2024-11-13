@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the underline animation */
+.underline-animation {
+  position: relative;
+  cursor: pointer;
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -2px;
+  background-color: green;
+  transition: width 0.3s ease;
+}
+
+.underline-animation:hover::after,
+.underline-animation:focus::after {
+  width: 100%;
+}
