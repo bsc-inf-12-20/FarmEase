@@ -22,9 +22,7 @@ function App() {
       <TestimonialSlider/>
       <BenefitsProcess/>
       <Footer/>
-     
-   
-f
+    
     </div>
   );
 };
