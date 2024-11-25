@@ -9,6 +9,7 @@ import TestimonialSlider from "./Features/LandingPage/Subcomponents/Testimonial.
 import MarketplaceSection from "./Features/LandingPage/Subcomponents/MarketPlace.jsx";
 import BenefitsProcess from "./Features/LandingPage/Subcomponents/Benefits.jsx";
 import Footer from './Features/LandingPage/Subcomponents/Footer.jsx';
+
 function App() {
   return (
     <div >
